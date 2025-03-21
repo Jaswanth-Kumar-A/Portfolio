@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio website showcasing AI and Frontend Development projects" />
+    <meta name="keywords" content="AI, Machine Learning, Frontend Development, React, Portfolio" />
+    <meta name="author" content="Jaswanth Aatukuri" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Jaswanth Aatukuri - AI Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">JA</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div id="particles-js"></div>
+        <div class="home-content">
+            <div class="profile-container">
+                <img src="assets/profile.jpg" alt="Jaswanth Aatukuri" class="profile-image">
+            </div>
+            <div class="text-content">
+                <h1>Jaswanth Aatukuri</h1>
+                <h2>AI Enthusiast | Frontend Developer | Researcher</h2>
+                <p>Transforming ideas into intelligent solutions through cutting-edge AI and web technologies</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="cta-button primary">View Projects</a>
+                    <a href="#contact" class="cta-button secondary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I am a passionate software developer specializing in Artificial Intelligence, Machine Learning, and Front-End Development. Currently pursuing Computer Science & Management at SRM University AP, I combine academic excellence with practical expertise to create innovative solutions.</p>
+                <p>My journey in technology is driven by a deep curiosity for AI and its potential to transform industries. I focus on developing intelligent systems that can make a real difference in people's lives.</p>
+                <div class="education">
+                    <h3>Education</h3>
+                    <p>SRM University AP</p>
+                    <p>Computer Science & Management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <span>Python</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>C++</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Java</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>AI/ML Expertise</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <span>NLP</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Deep Learning</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Image Processing</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Web Technologies</h3>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <span>ReactJS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 55%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>HTML/CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="detection.jpg" alt="Object Detection">
+                    <div class="project-overlay">
+                        <div class="project-tech">
+                            <span>YOLOv8</span>
+                            <span>OpenCV</span>
+                        </div>
+                    </div>
+                </div>
+                <h3>Live Object Detection</h3>
+                <p>Real-time object detection system using YOLOv8 for accurate and efficient object recognition.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="hand.jpg" alt="Handwritten Detection">
+                    <div class="project-overlay">
+                        <div class="project-tech">
+                            <span>CNN</span>
+                            <span>KNN</span>
+                        </div>
+                    </div>
+                </div>
+                <h3>Handwritten Number & Word Detection</h3>
+                <p>Multi-model approach for handwritten text recognition using various ML algorithms.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="route.jpg" alt="Route Finder">
+                    <div class="project-overlay">
+                        <div class="project-tech">
+                            <span>Dijkstra's</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+                <h3>Optimal Route Finder</h3>
+                <p>Efficient pathfinding algorithm implementation for finding optimal routes.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images (1).jpg" alt="Weather App">
+                    <div class="project-overlay">
+                        <div class="project-tech">
+                            <span>ReactJS</span>
+                            <span>API</span>
+                        </div>
+                    </div>
+                </div>
+                <h3>Weather Forecast App</h3>
+                <p>Modern weather application with real-time data and interactive UI.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <h2 class="section-title">Experience & Research</h2>
+        <div class="experience-timeline">
+            <div class="experience-item">
+                <h3>Research Projects</h3>
+                <div class="research-projects">
+                    <div class="research-project">
+                        <h4>NLP-Driven Medical Chatbot</h4>
+                        <p>Developed an intelligent chatbot system using Reinforcement Learning and BioBERT for medical information assistance. The system provides accurate medical information and guidance through advanced NLP techniques.</p>
+                        <div class="project-tech">
+                            <span>Reinforcement Learning</span>
+                            <span>BioBERT</span>
+                        </div>
+                    </div>
+                    <div class="research-project">
+                        <h4>Sentiment & Mental Stability Analysis</h4>
+                        <p>Conducted research on sentiment analysis and mental health evaluation using VADER and BERT models. The system analyzes text data to evaluate mental health indicators and emotional states.</p>
+                        <div class="project-tech">
+                            <span>VADER</span>
+                            <span>BERT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-item">
+                <h3>Internships</h3>
+                <div class="internship-list">
+                    <div class="internship-item">
+                        <h4>EduNet</h4>
+                        <p>AI/ML Intern</p>
+                        <p>Duration: 3 months</p>
+                        <ul class="experience-details">
+                            <li>Developed ML models for predicting employee burnout</li>
+                            <li>Implemented data preprocessing and feature engineering</li>
+                            <li>Created visualization dashboards for insights</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section">
+        <h2 class="section-title">Certifications</h2>
+        <div class="certifications-grid">
+            <div class="certification-card">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>NPTEL Python</h3>
+                <p>Python Programming</p>
+                <a href="https://archive.nptel.ac.in/noc/B2C/candidate_login/candidate_scores.php?courseid=noc23-cs108" target="_blank" class="cert-link">View Certificate</a>
+            </div>
+            <div class="certification-card">
+                <i class="fas fa-certificate"></i>
+                <h3>Coursera</h3>
+                <p>Prompt engineering</p>
+                <a href="https://www.coursera.org/account/accomplishments/verify/Z7U6L9GWBC6N" target="_blank" class="cert-link">View Certificate</a>
+            </div>
+            <div class="certification-card">
+                <i class="fas fa-award"></i>
+                <h3>MongoDB</h3>
+                <p>Mongodb University</p>
+                <a href="https://ti-user-certificates.s3.amazonaws.com/ae62dcd7-abdc-4e90-a570-83eccba49043/876a921d-64bb-4391-831b-8581c1248a73-jaswanth-kumar-aatukuri-9c67713f-553e-4739-830e-6172c1d41d0a-certificate.pdf" target="_blank" class="cert-link">View Certificate</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-content">
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/Jaswanth-Kumar-A" class="social-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jaswanth-aatukuri/" class="social-link" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://leetcode.com/u/Jaswanth83/" class="social-link" target="_blank" title="LeetCode"><i class="fas fa-code"></i></a>
+                <a href="https://www.geeksforgeeks.org/user/jaswanthaasxci/" class="social-link" target="_blank" title="GeeksforGeeks"><i class="fas fa-laptop-code"></i></a>
+                <a href="mailto:jaswanthkumar_aatukuri@srmap.edu.in" class="social-link" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <footer>
+        <p>&copy; 2024 Jaswanth Aatukuri. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html> 
